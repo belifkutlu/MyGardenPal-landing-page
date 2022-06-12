@@ -11,7 +11,9 @@ import icon3 from "./assets/images/icon3.svg";
 import icon4 from "./assets/images/icon4.svg";
 import icon5 from "./assets/images/icon5.svg";
 import icon6 from "./assets/images/icon6.svg";
-import banner from "./assets/images/banner.png";
+import leaf from "./assets/images/leaf.png";
+import hero from "./assets/images/hero-image.png";
+import tree from "./assets/images/tree.png";
 
 function App() {
   return (
@@ -33,22 +35,40 @@ function App() {
         </div>
       </header>
       <section className="section-1">
-        <div className="hero-image">
-          <div className="card-1">
-            <img src={women} alt="" />
-            <button>
-              <img src={play} alt="" />
-              <span>How we works</span> <span>Watch our work process</span>
-            </button>
-          </div>
-          <div className="card-2">
-            <img src={vase} alt="" />
-            <button>Donate now</button>
+        <div className="left-content">
+          <div className="hero-image">
+            <img src={hero} alt="" />
+            <div className="card-1">
+              <div className="women">
+                <img src={women} alt="" />
+              </div>
+              <button>
+                <img src={play} alt="" />
+
+                <div className="articles">
+                  <span>How we works</span> <br />{" "}
+                  <span className="subtitle">Watch our work process</span>
+                </div>
+              </button>
+            </div>
+            <div className="card-2">
+              <div className="card-content">
+                <img src={vase} alt="vase" />
+                <button>Donate now</button>
+                <div className="tree">
+                  <img src={tree} alt="tree" />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div className="content-texts-wrapper">
           <div className="content">
-            <h1>We bring nature to your sweet home</h1>
+            <h1>We bring nature to your</h1>
+            <dic className="leaf-wrapper">
+              <h2>sweet home</h2>
+              <img className="leaf" src={leaf} alt="" />
+            </dic>
             <p>
               MyGardenPal is the best in class gardening service for your garden
               need. Discounts available for early subscribers.
@@ -59,31 +79,30 @@ function App() {
             </button>
           </div>
           <div className="provides">
-            <h3>We provides</h3>
+            <h3>We provides -</h3>
             <div className="icons">
-              <div>
-                {" "}
-                <img src={icon1} alt="" /> <span> Soil Test</span>{" "}
+              <div className="plant-icon">
+                <img src={icon1} alt="" /> <span> Soil Test</span>
               </div>
-              <div>
-                {" "}
-                <img src={icon2} alt="" /> <span> Bug Killing</span>{" "}
+              <div className="plant-icon">
+                <img src={icon2} alt="" /> <span> Bug Killing</span>
               </div>
-              <div>
-                {" "}
-                <img src={icon3} alt="" /> <span> Pots & Planters</span>{" "}
+              <div className="plant-icon">
+                <img src={icon3} alt="" />{" "}
+                <span>
+                  {" "}
+                  Pots & <br />
+                  Planters
+                </span>
               </div>
-              <div>
-                {" "}
-                <img src={icon4} alt="" /> <span> Lawn Mowing</span>{" "}
+              <div className="plant-icon">
+                <img src={icon4} alt="" /> <span> Lawn Mowing</span>
               </div>
-              <div>
-                {" "}
-                <img src={icon5} alt="" /> <span>Fencing</span>{" "}
+              <div className="plant-icon">
+                <img src={icon5} alt="" /> <span>Fencing</span>
               </div>
-              <div>
-                {" "}
-                <img src={icon6} alt="" /> <span>Decoration</span>{" "}
+              <div className="plant-icon">
+                <img src={icon6} alt="" /> <span>Decoration</span>
               </div>
             </div>
           </div>
