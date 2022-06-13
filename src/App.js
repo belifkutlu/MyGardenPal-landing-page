@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="container">
       <header className="header">
-        <img src={image} alt="logo" />
+        <img className="logo" src={image} alt="logo" />
         <navbar className="header-left">
           <a href="/">Home</a>
           <a href="/">Why Garden?</a>
@@ -37,7 +37,7 @@ function App() {
       <section className="section-1">
         <div className="left-content">
           <div className="hero-image">
-            <img src={hero} alt="" />
+            <img className="hero" src={hero} alt="" />
             <div className="card-1">
               <div className="women">
                 <img src={women} alt="" />
@@ -46,8 +46,8 @@ function App() {
                 <img src={play} alt="" />
 
                 <div className="articles">
-                  <span>How we works</span> <br />{" "}
-                  <span className="subtitle">Watch our work process</span>
+                  <h3>How we works</h3>
+                  <p className="subtitle">Watch our work process</p>
                 </div>
               </button>
             </div>
@@ -65,10 +65,10 @@ function App() {
         <div className="content-texts-wrapper">
           <div className="content">
             <h1>We bring nature to your</h1>
-            <dic className="leaf-wrapper">
+            <div className="leaf-wrapper">
               <h2>sweet home</h2>
               <img className="leaf" src={leaf} alt="" />
-            </dic>
+            </div>
             <p>
               MyGardenPal is the best in class gardening service for your garden
               need. Discounts available for early subscribers.
