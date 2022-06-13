@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/MyGardenPal-landing-page/static/css/main.41278020.css",
+    "main.js": "/MyGardenPal-landing-page/static/js/main.ca9f06d5.js",
+    "static/media/vase.jpg": "/MyGardenPal-landing-page/static/media/vase.d188c09c81f4938aa873.jpg",
+    "static/media/hero-image.png": "/MyGardenPal-landing-page/static/media/hero-image.7d16683069afdbbb92b7.png",
+    "static/media/women.png": "/MyGardenPal-landing-page/static/media/women.3050f55d5db401478fdc.png",
+    "static/media/logo.svg": "/MyGardenPal-landing-page/static/media/logo.f73e6cf5efeb55f90e738cbf773f2b1e.svg",
+    "static/media/save.svg": "/MyGardenPal-landing-page/static/media/save.249bc0b60bc4bd18623d1c54523975ae.svg",
+    "static/media/icon3.svg": "/MyGardenPal-landing-page/static/media/icon3.09ddd8a41ddb46baec42cbdd5487b07d.svg",
+    "static/media/icon2.svg": "/MyGardenPal-landing-page/static/media/icon2.5d5806d6d60fe602094504124063ca5d.svg",
+    "static/media/icon6.svg": "/MyGardenPal-landing-page/static/media/icon6.a411fc0b2dc8e839062db56d56b64639.svg",
+    "static/media/icon1.svg": "/MyGardenPal-landing-page/static/media/icon1.2a68b91e3700d6c9fa7d7540a1daa5af.svg",
+    "static/media/icon5.svg": "/MyGardenPal-landing-page/static/media/icon5.672eac96d7130292e3788377a0942254.svg",
+    "static/media/icon4.svg": "/MyGardenPal-landing-page/static/media/icon4.bd62ca544ab9451b70f6cfad9a61ecc3.svg",
+    "static/media/play.svg": "/MyGardenPal-landing-page/static/media/play.0283274a5c33c8239b2f779c07395e0a.svg",
+    "index.html": "/MyGardenPal-landing-page/index.html",
+    "static/media/profil.svg": "/MyGardenPal-landing-page/static/media/profil.9516534e626112653d9c48a66cbeab63.svg",
+    "main.41278020.css.map": "/MyGardenPal-landing-page/static/css/main.41278020.css.map",
+    "main.ca9f06d5.js.map": "/MyGardenPal-landing-page/static/js/main.ca9f06d5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41278020.css",
+    "static/js/main.ca9f06d5.js"
+  ]
+}
